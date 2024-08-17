@@ -1,0 +1,11 @@
+
+
+spring:
+  application:
+    name: courseWebApp
+  data:
+    mongodb:
+      host: ${MONGODB_HOST:localhost}
+      port: ${MONGODB_PORT:27017}
+      database: ${MONGODB_DATABASE:courseWebApp}
+      auto-index-creation: true

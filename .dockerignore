@@ -1,0 +1,29 @@
+target/
+build/
+
+# IDE files
+*.idea
+*.iml
+*.vscode
+*.classpath
+*.project
+*.settings/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Docker files
+.dockerignore
+docker-compose.yml
+Dockerfile
